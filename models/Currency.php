@@ -7,6 +7,10 @@ use Exception;
 
 class Currency extends ActiveRecord
 {
+    /**
+     * @param $item
+     * @return Currency|null
+     */
     public static function create($item)
     {
         try {

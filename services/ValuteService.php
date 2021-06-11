@@ -10,6 +10,9 @@ class ValuteService
 {
     const LINK = 'http://www.cbr.ru/scripts/XML_daily.asp';
 
+    /**
+     *  @return void
+     */
     public function parseXmlDaily()
     {
         try {

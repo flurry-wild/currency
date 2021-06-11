@@ -8,5 +8,5 @@ php yii migrate<br>
 php yii currency/parse<br>
 <br>
 Проверка через curl:<br>
-curl -i -H "Accept:application/xml" "http://localhost/currencies"<br>
+curl -i -H "Accept:application/xml" "http://localhost/currencies?page=2"<br>
 curl -i -H "Accept:application/xml" "http://localhost/currency/1" - подставляем id, имеющийся в таблице.<br>
